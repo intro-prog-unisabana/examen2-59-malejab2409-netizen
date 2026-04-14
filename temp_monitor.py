@@ -7,21 +7,20 @@
 #   - 'total':    suma total de todas las temperaturas (float)
 
 
-def init(max_readings):
+def init(max_readings: int):
     """
     Crea y retorna un diccionario para almacenar hasta max_readings lecturas.
     """
-    # TODO: Implementar
-    pass
-
+    'max' = max_readings
+    'readings' = []
+    'total'= sum(max_readings).__float__
 
 def add_reading(monitor, temp):
     """
     Agrega una nueva lectura con la temperatura especificada.
     Retorna el diccionario modificado.
     """
-    # TODO: Implementar
-    pass
+    for i in 
 
 
 def count(monitor):
@@ -45,8 +44,8 @@ def format_readings(monitor):
     Retorna una representacion en cadena de las temperaturas.
     Formato: [t1, t2, t3, ..., tn]
     """
-    # TODO: Implementar
-    pass
+    monitor = str
+    return 
 
 
 def highest_temp(monitor):
@@ -61,8 +60,7 @@ def coldest_window(monitor, k):
     """
     Retorna el promedio mas bajo de cualquier k lecturas consecutivas.
     """
-    # TODO: Implementar
-    pass
+    k == 1
 
 
 def longest_rising_streak(monitor):
